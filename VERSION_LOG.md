@@ -3,11 +3,38 @@
 This project uses milestone versions. Small changes are tracked in Git commit
 history, while this file records visible project capability milestones.
 
-## V0.5 - Interactive Web Dashboard
+## V0.6 - Real Market Case Studies
 
 Date: 2026-07-10
 
 Status: Current
+
+Completed:
+
+- 2026 China government bond YTD case study
+- 2026 30Y long-duration rates trade case study
+- large-notional position simulation framework
+- project log for meaningful milestone updates
+- README case-study section
+
+Key insight:
+
+```text
+Yield move size matters, but duration-adjusted exposure matters more.
+```
+
+Planned follow-up:
+
+- real-market notebook implementation
+- P&L by maturity visualization
+- historical yield curve chart
+- dashboard integration for real-market cases
+
+## V0.5 - Interactive Web Dashboard
+
+Date: 2026-07-10
+
+Status: Completed
 
 Completed:
 

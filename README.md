@@ -24,6 +24,10 @@ bond cash flows
 This is a public-safe GitHub project. It uses simplified examples and synthetic
 inputs to demonstrate the mechanics, not proprietary trading views.
 
+The project also includes real-market case studies using approximate 2026 China
+government bond yield movements to simulate large-notional interest-rate bond
+scenarios.
+
 ## 🎯 Why This Project Exists
 
 Interest-rate bonds are one of the most important areas in FICC. Before talking
@@ -54,6 +58,8 @@ ficc-rates-bond-quant/
 |   |-- package.json
 |   |-- next.config.js
 |   `-- src/
+|-- case_studies/
+|-- logs/
 |-- src/ficc_rates_bond_quant/
 |   |-- __init__.py
 |   |-- bond_math.py
@@ -118,6 +124,21 @@ The dashboard includes:
 - 📈 duration comparison chart
 - 📐 convexity comparison chart
 - 📚 educational explanations for duration, convexity, and rate sensitivity
+
+## 📊 Real Market Case Studies
+
+The case studies connect duration and convexity concepts with realistic China
+government bond yield movements.
+
+Current case studies:
+
+- 📈 `case_studies/2026_china_gov_bond_ytd.md`
+- ⏳ `case_studies/2026_30y_rates_trade.md`
+- 💰 `case_studies/100bn_position_simulation.md`
+
+These cases are public-safe historical simulations. They do not contain real
+positions, proprietary trading records, client information, or live trade
+recommendations.
 
 ## ✨ What The Project Shows
 
@@ -224,6 +245,10 @@ See:
 - `docs/system_design.md`
 - `docs/public_private_boundary.md`
 - `docs/versioning_strategy.md`
+- `case_studies/2026_china_gov_bond_ytd.md`
+- `case_studies/2026_30y_rates_trade.md`
+- `case_studies/100bn_position_simulation.md`
+- `logs/project_log.md`
 - `VERSION_LOG.md`
 
 ## 🤝 Contributing
@@ -251,6 +276,16 @@ interest-rate bond analytics, please consider giving the repository a Star.
 
 README updates record only major milestones. Smaller changes are tracked in Git
 commit history. See `VERSION_LOG.md` for the full milestone version log.
+
+### V0.6 - 2026-07-10
+
+Completed:
+
+- 📊 real market case study framework
+- 📈 2026 China government bond YTD case
+- ⏳ 2026 30Y long-duration rates trade case
+- 💰 large-notional position simulation framework
+- 📝 project log for meaningful milestone updates
 
 ### V0.5 - 2026-07-10
 
@@ -297,11 +332,15 @@ Planned additions:
 - ⚙️ performance optimization
 - 📚 more educational examples
 - 🚀 deployment to Vercel or GitHub Pages
+- 📓 real-market notebook implementation
+- 📊 P&L by maturity visualization
+- 📈 historical yield curve chart
+- 🌐 dashboard integration for real-market cases
 
 ## 📌 Project Status
 
 - Status: Active Development
-- Version: V0.5
+- Version: V0.6
 - Last Update: 2026-07-10
 
 ## 📜 License

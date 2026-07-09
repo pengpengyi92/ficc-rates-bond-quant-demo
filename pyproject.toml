@@ -1,6 +1,6 @@
 [project]
 name = "ficc-rates-bond-quant"
-version = "0.5.0"
+version = "0.6.0"
 description = "Educational FICC rates bond quant project for pricing, duration, convexity, scenarios, and PnL."
 requires-python = ">=3.10"
 dependencies = []
