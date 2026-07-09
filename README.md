@@ -5,7 +5,8 @@
 </p>
 
 FICC Rates Bond Quant Demo is an educational Python project for fixed-income
-interest-rate bond analytics.
+interest-rate bond analytics. It now includes a Python quant engine, a FastAPI
+backend API, and a TypeScript / Next.js frontend dashboard.
 
 It focuses on the core mechanics of rates-bond quant work:
 
@@ -45,6 +46,14 @@ ficc-rates-bond-quant-demo/
 |-- README.md
 |-- pyproject.toml
 |-- LICENSE
+|-- backend/
+|   |-- app.py
+|   |-- schemas.py
+|   `-- routes/
+|-- frontend/
+|   |-- package.json
+|   |-- next.config.js
+|   `-- src/
 |-- src/ficc_rates_bond_quant/
 |   |-- __init__.py
 |   |-- bond_math.py
@@ -55,7 +64,8 @@ ficc-rates-bond-quant-demo/
 |-- demos/
 |-- notes/
 |-- assets/
-|   `-- ficc-rates-bond-quant-icon.png
+|   |-- ficc-rates-bond-quant-icon.png
+|   `-- ficc-teaching-dashboard.png
 |-- docs/
 `-- outputs/
 ```
@@ -76,6 +86,39 @@ $env:PYTHONPATH = "src"
 py -m unittest discover -s tests
 ```
 
+Run the FastAPI backend:
+
+```powershell
+py -m pip install -e ".[web]"
+$env:PYTHONPATH = "src"
+py -m uvicorn backend.app:app --reload
+```
+
+Run the TypeScript frontend:
+
+```powershell
+cd frontend
+npm install
+npm run dev
+```
+
+## 🌐 Interactive Web Demo
+
+The web demo turns the quant engine into a product-like educational dashboard.
+
+<p align="center">
+  <img src="assets/ficc-teaching-dashboard.png" alt="FICC web demo teaching dashboard" width="760">
+</p>
+
+The dashboard includes:
+
+- 💰 a 10 billion RMB default notional scenario
+- 📉 configurable yield-shock scenarios
+- 📊 estimated P&L by maturity
+- 📈 duration comparison chart
+- 📐 convexity comparison chart
+- 📚 educational explanations for duration, convexity, and rate sensitivity
+
 ## ✨ What The Demo Shows
 
 The demo compares 1Y, 3Y, 5Y, 10Y, and 30Y coupon bonds under:
@@ -95,6 +138,7 @@ It estimates:
 - 📐 convexity
 - 💵 estimated price change
 - 💰 estimated portfolio PnL
+- 🌐 interactive dashboard output
 
 ## 📖 Example Interpretation
 
@@ -124,6 +168,7 @@ This project covers:
 - 🧪 yield-change scenario analysis
 - 💰 portfolio PnL estimation
 - 🧭 multi-maturity comparison
+- 🌐 web-based educational visualization
 
 It does not cover:
 
@@ -219,6 +264,10 @@ Completed:
 - 📓 demo notebook scaffold
 - 📝 educational notes
 - 🏗️ system design V1.0
+- 🌐 FastAPI backend scaffold
+- 🖥️ TypeScript / Next.js frontend dashboard
+- 📊 web charts and scenario table
+- 🖼️ teaching dashboard image asset
 - 🤝 contributing and support sections
 - 📜 MIT License
 
@@ -235,6 +284,7 @@ Planned additions:
 - 🛡️ treasury futures hedging examples
 - ⚙️ performance optimization
 - 📚 more educational examples
+- 🚀 deployment to Vercel or GitHub Pages
 
 ## 📌 Project Status
 

@@ -5,6 +5,13 @@ description = "Educational FICC rates bond quant demo for pricing, duration, con
 requires-python = ">=3.10"
 dependencies = []
 
+[project.optional-dependencies]
+web = [
+    "fastapi>=0.110",
+    "uvicorn[standard]>=0.27",
+    "pydantic>=2.0",
+]
+
 [tool.pytest.ini_options]
 pythonpath = ["src"]
 testpaths = ["tests"]
