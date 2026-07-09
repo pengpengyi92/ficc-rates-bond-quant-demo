@@ -1,4 +1,4 @@
-# FICC Rates Bond Quant Demo
+# 🚀 FICC Rates Bond Quant Demo
 
 <p align="center">
   <img src="assets/ficc-rates-bond-quant-icon.png" alt="FICC Rates Bond Quant Demo project icon" width="360">
@@ -23,22 +23,22 @@ bond cash flows
 This is a public-safe GitHub project. It uses simplified examples and synthetic
 inputs to demonstrate the mechanics, not proprietary trading views.
 
-## Why This Project Exists
+## 🎯 Why This Project Exists
 
 Interest-rate bonds are one of the most important areas in FICC. Before talking
 about strategy, portfolio construction, or AI research agents, we need a clean
 understanding of:
 
-- how coupon bond prices are computed
-- why bond prices move opposite to yields
-- why duration approximates first-order rate sensitivity
-- why convexity matters for larger rate moves
-- why long-maturity bonds are more sensitive to rate changes
-- how portfolio PnL responds to rate-cut and rate-hike scenarios
+- 📊 how coupon bond prices are computed
+- 📉 why bond prices move opposite to yields
+- 📈 why duration approximates first-order rate sensitivity
+- 📐 why convexity matters for larger rate moves
+- ⏳ why long-maturity bonds are more sensitive to rate changes
+- 💰 how portfolio PnL responds to rate-cut and rate-hike scenarios
 
 This repo turns those ideas into a small, runnable Python demo.
 
-## Repository Structure
+## 📂 Repository Structure
 
 ```text
 ficc-rates-bond-quant-demo/
@@ -60,7 +60,7 @@ ficc-rates-bond-quant-demo/
 `-- outputs/
 ```
 
-## Quick Start
+## 🚀 Quick Start
 
 Run the demo:
 
@@ -76,7 +76,7 @@ $env:PYTHONPATH = "src"
 py -m unittest discover -s tests
 ```
 
-## What The Demo Shows
+## ✨ What The Demo Shows
 
 The demo compares 1Y, 3Y, 5Y, 10Y, and 30Y coupon bonds under:
 
@@ -89,16 +89,14 @@ The demo compares 1Y, 3Y, 5Y, 10Y, and 30Y coupon bonds under:
 
 It estimates:
 
-```text
-price
-Macaulay duration
-modified duration
-convexity
-estimated price change
-estimated portfolio PnL
-```
+- 📊 price
+- 📈 Macaulay duration
+- 📉 modified duration
+- 📐 convexity
+- 💵 estimated price change
+- 💰 estimated portfolio PnL
 
-## Example Interpretation
+## 📖 Example Interpretation
 
 A long-duration bond has higher interest-rate sensitivity.
 
@@ -113,21 +111,19 @@ bond prices.
 
 Convexity improves the approximation when the yield move becomes larger.
 
-## Educational Scope
+## 📚 Educational Scope
 
 This project covers:
 
-```text
-interest-rate bonds
-cash-flow discounting
-bond pricing
-Macaulay duration
-modified duration
-convexity
-yield-change scenario analysis
-portfolio PnL estimation
-multi-maturity comparison
-```
+- 🏦 interest-rate bonds
+- 💵 cash-flow discounting
+- 📊 bond pricing
+- 📈 Macaulay duration
+- 📉 modified duration
+- 📐 convexity
+- 🧪 yield-change scenario analysis
+- 💰 portfolio PnL estimation
+- 🧭 multi-maturity comparison
 
 It does not cover:
 
@@ -142,7 +138,7 @@ live trading
 real portfolio optimization
 ```
 
-## Public-Safe Boundary
+## 🛡️ Public-Safe Boundary
 
 This repo does not include:
 
@@ -153,7 +149,7 @@ This repo does not include:
 - private market views
 - live trading instructions
 
-## Positioning
+## 🧭 Positioning
 
 This is a research-engineering project, not a trading system.
 
@@ -174,7 +170,7 @@ bank internal research engine
 validated real-money strategy
 ```
 
-## Notes
+## 📝 Notes
 
 See:
 
@@ -183,70 +179,70 @@ See:
 - `docs/system_design.md`
 - `docs/public_private_boundary.md`
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are welcome.
 
 You can contribute by:
 
-- opening Issues for bugs, questions, or suggested improvements
-- submitting Pull Requests for fixes, examples, documentation, or tests
-- improving educational explanations around fixed income, FICC, rates, duration,
+- 🐞 opening Issues for bugs, questions, or suggested improvements
+- 🔧 submitting Pull Requests for fixes, examples, documentation, or tests
+- 📚 improving educational explanations around fixed income, FICC, rates, duration,
   convexity, and scenario analysis
-- adding public-safe examples that do not rely on proprietary market data,
+- 💡 adding public-safe examples that do not rely on proprietary market data,
   employer materials, client information, or live trading instructions
 
 Pull Requests will be reviewed carefully and merged when they align with the
 educational and public-safe scope of this project.
 
-## Support
+## ⭐ Support
 
-If this project helps you learn quantitative fixed income, FICC, or
+⭐ If this project helps you learn quantitative fixed income, FICC, or
 interest-rate bond analytics, please consider giving the repository a Star.
 
-## Project Updates
+## 🚀 Project Updates
 
 ### 2026-07-10
 
 Completed:
 
-- initial repository structure
-- public-safe README
-- core Python package under `src/ficc_rates_bond_quant/`
-- bond pricing implementation
-- Macaulay duration and modified duration
-- convexity calculation
-- yield-shock scenario analysis
-- simple portfolio PnL estimation
-- unit tests
-- runnable demo script
-- demo notebook scaffold
-- educational notes
-- system design V1.0
-- contributing and support sections
-- MIT License
+- 📂 initial repository structure
+- 📖 public-safe README
+- 📦 core Python package under `src/ficc_rates_bond_quant/`
+- 📊 bond pricing implementation
+- 📈 Macaulay duration and modified duration
+- 📐 convexity calculation
+- 🧪 yield-shock scenario analysis
+- 💰 simple portfolio PnL estimation
+- 🧪 unit tests
+- 🚀 runnable demo script
+- 📓 demo notebook scaffold
+- 📝 educational notes
+- 🏗️ system design V1.0
+- 🤝 contributing and support sections
+- 📜 MIT License
 
-## Coming Soon
+## 🗺️ Coming Soon
 
 Planned additions:
 
-- yield curve visualization
-- DV01 / PVBP calculation
-- key rate duration
-- yield curve shift scenarios
-- multi-factor interest-rate analysis
-- backtesting examples
-- treasury futures hedging examples
-- performance optimization
-- more educational examples
+- 📈 yield curve visualization
+- 💵 DV01 / PVBP calculation
+- 🔑 key rate duration
+- 🧪 yield curve shift scenarios
+- 🧭 multi-factor interest-rate analysis
+- 📊 backtesting examples
+- 🛡️ treasury futures hedging examples
+- ⚙️ performance optimization
+- 📚 more educational examples
 
-## Project Status
+## 📌 Project Status
 
 - Status: Active Development
 - Version: V0.1
 - Last Update: 2026-07-10
 
-## License
+## 📜 License
 
 This project is released under the MIT License.
 
