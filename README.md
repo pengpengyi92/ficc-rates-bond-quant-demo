@@ -4,6 +4,12 @@
   <img src="assets/ficc-rates-bond-quant-icon.png" alt="FICC Rates Bond Quant project icon" width="360">
 </p>
 
+<p align="center">
+  <a href="https://ficc-rates-bond-quant.pages.dev"><strong>🌐 Live Website</strong></a>
+  ·
+  <a href="https://github.com/pengpengyi92/ficc-rates-bond-quant"><strong>GitHub Repo</strong></a>
+</p>
+
 FICC Rates Bond Quant is an educational Python project for fixed-income
 interest-rate bond analytics. It now includes a Python quant engine, a FastAPI
 backend API, and a TypeScript / Next.js frontend dashboard.
@@ -145,6 +151,12 @@ The dashboard includes:
 ## ☁️ Cloudflare Pages Deployment
 
 The frontend is configured as a static Next.js export for Cloudflare Pages.
+
+Live website:
+
+```text
+https://ficc-rates-bond-quant.pages.dev
+```
 
 Recommended deployment settings:
 
@@ -383,6 +395,7 @@ Planned additions:
 - Status: Active Development
 - Version: V0.7
 - Last Update: 2026-07-10
+- Website: https://ficc-rates-bond-quant.pages.dev
 
 ## 📜 License
 
