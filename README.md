@@ -1,5 +1,9 @@
 # FICC Rates Bond Quant Demo
 
+<p align="center">
+  <img src="assets/ficc-rates-bond-quant-icon.png" alt="FICC Rates Bond Quant Demo project icon" width="360">
+</p>
+
 FICC Rates Bond Quant Demo is an educational Python project for fixed-income
 interest-rate bond analytics.
 
@@ -51,6 +55,7 @@ ficc-rates-bond-quant-demo/
 |-- demos/
 |-- notes/
 |-- assets/
+|   `-- ficc-rates-bond-quant-icon.png
 |-- docs/
 `-- outputs/
 ```
