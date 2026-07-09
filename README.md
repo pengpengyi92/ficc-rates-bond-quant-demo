@@ -10,20 +10,9 @@
   <a href="https://github.com/pengpengyi92/ficc-rates-bond-quant"><strong>GitHub Repo</strong></a>
 </p>
 
-FICC Rates Bond Quant is an open-source educational project for understanding
-interest-rate bonds through code, charts, and realistic case studies.
-
-中文简介：这是一个面向 FICC / 固收 / 利率债学习者的开源量化项目。它把
-“收益率下行为什么债券价格上涨”“久期为什么决定利率敏感性”“10 亿 / 100 亿
-人民币名义本金下 P&L 如何变化”这些问题，做成可运行的 Python quant engine、
-FastAPI backend scaffold、TypeScript / Next.js dashboard 和真实市场案例笔记。
-
-The goal is to make rates-bond quant intuition visible:
-
-- from formula to Python implementation
-- from yield move to duration-adjusted P&L
-- from toy examples to China government bond case studies
-- from code repo to an interactive website
+FICC Rates Bond Quant is an educational Python project for fixed-income
+interest-rate bond analytics. It now includes a Python quant engine, a FastAPI
+backend API, and a TypeScript / Next.js frontend dashboard.
 
 It focuses on the core mechanics of rates-bond quant work:
 
@@ -38,9 +27,8 @@ bond cash flows
 -> multi-maturity comparison
 ```
 
-This is a public-safe GitHub project. It uses simplified examples, approximate
-public-market cases, and synthetic inputs to demonstrate the mechanics, not
-proprietary trading views.
+This is a public-safe GitHub project. It uses simplified examples and synthetic
+inputs to demonstrate the mechanics, not proprietary trading views.
 
 The project also includes real-market case studies using approximate 2026 China
 government bond yield movements to simulate large-notional interest-rate bond

@@ -90,14 +90,6 @@ p {
   font-size: 1.08rem;
 }
 
-.hero-cn {
-  border-left: 4px solid var(--gold);
-  margin-top: 12px;
-  padding-left: 14px;
-  color: #344762;
-  font-weight: 650;
-}
-
 .hero-actions {
   display: flex;
   flex-wrap: wrap;

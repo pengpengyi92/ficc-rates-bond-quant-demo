@@ -36,14 +36,10 @@ export default function HomePage() {
       <section className="hero">
         <div className="hero-copy">
           <p className="pill">FICC • Rates • Bond Quant</p>
-          <h1>用交互方式理解利率债 P&L</h1>
+          <h1>Interactive interest-rate bond P&L dashboard</h1>
           <p>
-            From yield moves to duration-adjusted P&L: explore how maturity, duration,
-            convexity, and large-notional exposure shape fixed-income rates-bond results.
-          </p>
-          <p className="hero-cn">
-            面向 FICC / 固收 / 量化学习者：用 10bn RMB 利率债情景，直观看到收益率变化、
-            久期、凸性和期限结构如何共同影响债券组合估值。
+            Explore how duration, convexity, yield changes, and maturity shape the estimated
+            P&L of a fixed-income rates bond position.
           </p>
           <div className="hero-actions">
             <a
