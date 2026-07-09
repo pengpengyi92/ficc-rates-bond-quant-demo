@@ -41,6 +41,9 @@ export default function HomePage() {
             Explore how duration, convexity, yield changes, and maturity shape the estimated
             P&L of a fixed-income rates bond position.
           </p>
+          <p className="hero-translation">
+            中文：用交互方式理解久期、凸性、收益率变化和期限结构，如何共同影响一笔固收利率债头寸的估算 P&L。
+          </p>
           <div className="hero-actions">
             <a
               href="https://github.com/pengpengyi92/ficc-rates-bond-quant"

@@ -90,6 +90,17 @@ p {
   font-size: 1.08rem;
 }
 
+.hero-translation {
+  border: 1px solid rgba(184, 128, 31, 0.22);
+  border-left: 4px solid var(--gold);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.72);
+  margin-top: 12px;
+  padding: 12px 14px;
+  color: #344762;
+  font-weight: 650;
+}
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
