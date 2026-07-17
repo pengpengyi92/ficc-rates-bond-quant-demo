@@ -3,6 +3,22 @@
 This project uses milestone versions. Small changes are tracked in Git commit
 history, while this file records visible project capability milestones.
 
+## V0.8 - Rates Bond Quant Rename and FICC Quant Lab Roadmap
+
+Date: 2026-07-17
+
+Status: Current
+
+Completed:
+
+- renamed the public project from `FICC Rates Bond Quant` to `Rates Bond Quant`
+- prepared the GitHub repository rename to `pengpengyi92/rates-bond-quant`
+- changed the Python distribution name to `rates-bond-quant`
+- changed the frontend package name to `rates-bond-quant-frontend`
+- retained the `ficc_rates_bond_quant` Python import path for compatibility
+- documented the FICC Quant Lab module roadmap and repository creation gates
+- retained the existing Cloudflare Pages hostname as a stable public URL
+
 ## V0.7 - Cloudflare Pages Deployment Ready
 
 Date: 2026-07-10

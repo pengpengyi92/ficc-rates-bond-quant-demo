@@ -5,13 +5,13 @@
 Current project name:
 
 ```text
-FICC Rates Bond Quant
+Rates Bond Quant
 ```
 
 Repository slug:
 
 ```text
-ficc-rates-bond-quant
+rates-bond-quant
 ```
 
 The word `Demo` should not be used in the repository name or project title.

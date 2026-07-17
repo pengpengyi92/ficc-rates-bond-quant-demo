@@ -1,18 +1,24 @@
-# 🚀 FICC Rates Bond Quant
+# 🚀 Rates Bond Quant
 
 <p align="center">
-  <img src="assets/ficc-rates-bond-quant-icon.png" alt="FICC Rates Bond Quant project icon" width="360">
+  <img src="assets/ficc-rates-bond-quant-icon.png" alt="Rates Bond Quant project icon" width="360">
 </p>
 
 <p align="center">
   <a href="https://ficc-rates-bond-quant.pages.dev"><strong>🌐 Live Website</strong></a>
   ·
-  <a href="https://github.com/pengpengyi92/ficc-rates-bond-quant"><strong>GitHub Repo</strong></a>
+  <a href="https://github.com/pengpengyi92/rates-bond-quant"><strong>GitHub Repo</strong></a>
 </p>
 
-FICC Rates Bond Quant is an educational Python project for fixed-income
+Rates Bond Quant is an educational Python project for fixed-income
 interest-rate bond analytics. It now includes a Python quant engine, a FastAPI
 backend API, and a TypeScript / Next.js frontend dashboard.
+
+It is the first production-shaped repository in the broader **FICC Quant Lab**
+roadmap. Rates remains the current implementation focus; Credit and FX become
+separate repositories only after each has runnable code, tests, documentation,
+and a public-safe example. See
+[`docs/ficc_quant_lab_roadmap.md`](docs/ficc_quant_lab_roadmap.md).
 
 It focuses on the core mechanics of rates-bond quant work:
 
@@ -52,7 +58,7 @@ This repo turns those ideas into a small, runnable Python demo.
 ## 📂 Repository Structure
 
 ```text
-ficc-rates-bond-quant/
+rates-bond-quant/
 |-- README.md
 |-- pyproject.toml
 |-- LICENSE
@@ -320,6 +326,16 @@ interest-rate bond analytics, please consider giving the repository a Star.
 README updates record only major milestones. Smaller changes are tracked in Git
 commit history. See `VERSION_LOG.md` for the full milestone version log.
 
+### V0.8 - 2026-07-17
+
+Completed:
+
+- renamed the public project from `FICC Rates Bond Quant` to `Rates Bond Quant`
+- renamed the GitHub repository target to `pengpengyi92/rates-bond-quant`
+- aligned Python distribution and frontend package metadata
+- added the FICC Quant Lab roadmap and repository creation gates
+- retained the existing Cloudflare Pages hostname to avoid breaking links
+
 ### V0.7 - 2026-07-10
 
 Completed:
@@ -393,8 +409,8 @@ Planned additions:
 ## 📌 Project Status
 
 - Status: Active Development
-- Version: V0.7
-- Last Update: 2026-07-10
+- Version: V0.8
+- Last Update: 2026-07-17
 - Website: https://ficc-rates-bond-quant.pages.dev
 
 ## 📜 License

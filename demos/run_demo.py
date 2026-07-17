@@ -1,4 +1,4 @@
-"""Run the FICC rates bond quant demo."""
+"""Run the Rates Bond Quant demo."""
 
 from __future__ import annotations
 
@@ -38,7 +38,7 @@ def render_table(rows: list[dict[str, float | str]]) -> str:
 def build_report() -> str:
     scenarios = [rate_cut(10), rate_hike(10), rate_cut(50), rate_hike(50)]
     sections = [
-        "# FICC Rates Bond Quant Report",
+        "# Rates Bond Quant Report",
         "",
         "This report uses synthetic educational assumptions.",
         "",

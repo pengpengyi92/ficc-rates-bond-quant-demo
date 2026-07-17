@@ -1,4 +1,4 @@
-"""FastAPI application for the FICC rates bond quant web app."""
+"""FastAPI application for the Rates Bond Quant web app."""
 
 from __future__ import annotations
 
@@ -10,9 +10,9 @@ from .routes.scenarios import router as scenarios_router
 
 
 app = FastAPI(
-    title="FICC Rates Bond Quant API",
+    title="Rates Bond Quant API",
     description="Educational API for bond duration, convexity, scenario, and PnL analysis.",
-    version="0.1.0",
+    version="0.8.0",
 )
 
 app.add_middleware(
@@ -35,7 +35,7 @@ def read_root() -> dict[str, str]:
     """Health-check endpoint."""
 
     return {
-        "project": "FICC Rates Bond Quant",
+        "project": "Rates Bond Quant",
         "status": "ok",
         "docs": "/docs",
     }

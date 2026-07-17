@@ -1,4 +1,4 @@
-# System Design: FICC Rates Bond Quant
+# System Design: Rates Bond Quant
 
 ## 1. Goal
 

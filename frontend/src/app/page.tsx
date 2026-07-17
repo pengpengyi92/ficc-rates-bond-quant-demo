@@ -46,7 +46,7 @@ export default function HomePage() {
           </p>
           <div className="hero-actions">
             <a
-              href="https://github.com/pengpengyi92/ficc-rates-bond-quant"
+              href="https://github.com/pengpengyi92/rates-bond-quant"
               target="_blank"
               rel="noreferrer"
             >

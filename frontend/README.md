@@ -1,6 +1,6 @@
 # TypeScript Frontend
 
-This folder contains the interactive web dashboard for FICC Rates Bond Quant.
+This folder contains the interactive web dashboard for Rates Bond Quant.
 
 ## Run
 

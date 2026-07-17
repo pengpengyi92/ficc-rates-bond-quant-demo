@@ -3,7 +3,7 @@ import "../styles/globals.css";
 import type { ReactNode } from "react";
 
 export const metadata = {
-  title: "FICC Rates Bond Quant",
+  title: "Rates Bond Quant",
   description: "Interactive duration, convexity, and bond PnL dashboard."
 };
 

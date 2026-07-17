@@ -1,4 +1,4 @@
-# FICC Rates Bond Quant Report
+# Rates Bond Quant Report
 
 This report uses synthetic educational assumptions.
 

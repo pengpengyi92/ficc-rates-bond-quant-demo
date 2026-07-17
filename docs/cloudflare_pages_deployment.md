@@ -7,7 +7,7 @@ This project is prepared for Cloudflare Pages as a static Next.js export.
 When creating a Pages project from GitHub, use:
 
 ```text
-Repository: pengpengyi92/ficc-rates-bond-quant
+Repository: pengpengyi92/rates-bond-quant
 Production branch: master
 Root directory: frontend
 Framework preset: Next.js
@@ -58,12 +58,21 @@ frontend/out/
 3. Create application.
 4. Choose Pages.
 5. Connect to Git.
-6. Select `pengpengyi92/ficc-rates-bond-quant`.
+6. Select `pengpengyi92/rates-bond-quant`.
 7. Use the build settings above.
 8. Save and deploy.
 
 Cloudflare will provide a public `*.pages.dev` URL after the first successful
 deployment.
+
+The current production hostname remains:
+
+```text
+https://ficc-rates-bond-quant.pages.dev
+```
+
+The legacy hostname is intentionally retained so existing public links do not
+break after the GitHub repository rename.
 
 ## Notes
 
